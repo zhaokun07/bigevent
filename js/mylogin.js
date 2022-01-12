@@ -19,15 +19,13 @@ form.verify({
 
 $('.form-register').on('submit', (e) => {
     e.preventDefault()
-    $.ajax({
-        method: 'POST',
-        url: 'http://ajax.frontend.itheima.net/api/reguser',
-        data: {
-            name: $('.form-register [name=username]').val(),
+    console.log(1111);
+    $.post(
+        'http://ajax.frontend.itheima.net/api/reguser', {
+            username: $('.form-register [name=username]').val(),
             password: $('.form-register [name=password]').val()
-        },
-        success:res=>{
-            console.log(res);
-        }
-    })
+        }, res => {
+            if (res.status !== 0) return console.log(res.message);
+            console.log('注册成功');
+        })
 })

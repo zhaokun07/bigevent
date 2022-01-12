@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+i {
+  font-style: normal;
+}
+.logo {
+  font-size: 48px;
+}
+.register {
+  box-sizing: border-box;
+  padding: 0px 50px;
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.register .registerTop {
+  height: 60px;
+  color: #1398ff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+}
+.register .registerBody .register-uname {
+  height: 35px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.register .registerBody .register-uname input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 40px;
+}
+.register .registerBody .register-uname i {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: #000;
+}
+.register .registerBody .register-pwd {
+  height: 35px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.register .registerBody .register-pwd input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 40px;
+}
+.register .registerBody .register-pwd i {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: #000;
+}
+.register .registerBody .register-pwd2 {
+  height: 35px;
+  position: relative;
+  margin-bottom: 15px;
+}
+.register .registerBody .register-pwd2 input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 40px;
+}
+.register .registerBody .register-pwd2 i {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  color: #000;
+}
+.register .registerBody button {
+  width: 100%;
+  height: 35px;
+  background-color: #1398ff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff;
+}
+.register .enter {
+  position: absolute;
+  right: 55px;
+  bottom: 20px;
+}

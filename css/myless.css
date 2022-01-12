@@ -17,6 +17,7 @@ i {
 }
 .logo {
   font-size: 48px;
+  color: #1398ff;
 }
 .register {
   box-sizing: border-box;
@@ -27,7 +28,7 @@ i {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   border-radius: 5px;
   overflow: hidden;
   position: relative;
@@ -81,6 +82,7 @@ i {
 }
 .register .registerBody .register-pwd2 {
   height: 35px;
+  display: none;
   position: relative;
   margin-bottom: 15px;
 }

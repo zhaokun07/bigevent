@@ -47,8 +47,5 @@ $('.form-login').on('submit', (e) => {
             location.href = 'index.html'
             localStorage.setItem('token',res.token)
         }
-
-
-
     })
 })
